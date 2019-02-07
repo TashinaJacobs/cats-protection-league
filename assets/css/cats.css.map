@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,EAAG;EACD,KAAK,EAAE,OAAO;;ACDhB,iBAAkB;EAChB,MAAM,EAAE,KAAK;EACb,gBAAgB,EAAE,OAAO;EACzB,OAAO,EAAE,CAAC;;ACEZ,aAAc;EACZ,aAAa,EAAE,CAAC;;AAGlB,SAAU;EACR,UAAU,EAAE,OAAO;EACnB,MAAM,EAAE,KAAK;EACb,KAAK,EAAE,IAAI;;AAGb,WAAY;EACV,OAAO,EAAE,CAAC",
+"sources": ["../sass/_type.scss","../sass/_header.scss","../sass/cats.scss"],
+"names": [],
+"file": "cats.css"
+}

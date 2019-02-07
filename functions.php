@@ -15,7 +15,24 @@ function cats_script_enqueue() {
 
 add_action('wp_enqueue_scripts', 'cats_script_enqueue');
 
-// Get educational alert - UNCOMMENT BEFORE HAND IN
+
+add_theme_support( 'post-thumbnails' );
+ add_image_size('icon', 50, 50, true);
+ function add_custom_theme_supports(){
+   add_theme_support('post-formats', array('aside', 'gallery', 'image', 'video', 'link'));
+ }
+ add_action('wp_enqueue_scripts', 'add_custom_theme_supports');
+ function add_custom_logo(){
+   add_theme_support('custom-logo', array(
+     'height' => 100,
+     'width'  => 300,
+     'flex-width' => true,
+     'flex-height' => true
+   ));
+ }
+ add_action('init', 'add_custom_logo');
+
+// Get educational alert - UNCOMMENT BEFORE HAND IN!!
 // require get_parent_theme_file_path('./addons/educational_alert.php');
 
 require get_parent_theme_file_path('/addons/custom-customizer.php');

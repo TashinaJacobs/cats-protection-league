@@ -1,0 +1,20 @@
+h1 {
+  color: #2ea9ac; }
+
+.background-image {
+  height: 500px;
+  background-color: #2ea9ac;
+  padding: 0; }
+
+.my-container {
+  padding-right: 0; }
+
+.test-box {
+  background: #676767;
+  height: 200px;
+  width: 100%; }
+
+.no-padding {
+  padding: 0; }
+
+/*# sourceMappingURL=cats.css.map */

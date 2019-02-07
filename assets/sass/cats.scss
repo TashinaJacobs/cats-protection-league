@@ -1,0 +1,18 @@
+@import "vars";
+@import "type";
+@import "header";
+@import "footer";
+
+.my-container {
+  padding-right: 0;
+}
+
+.test-box {
+  background: #676767;
+  height: 200px;
+  width: 100%;
+}
+
+.no-padding {
+  padding: 0;
+}
